@@ -1,5 +1,4 @@
 import { TestFold } from './components/TestFold'
-import clsx from 'clsx'
 
 export default function App() {
   return (
