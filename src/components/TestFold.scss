@@ -1,0 +1,73 @@
+.TestFold {
+  background-color: #EEEEEE;
+
+  height: 100%;
+  width: 200%;
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  gap: 1em;
+
+  .ScreenContainer {
+    border: solid 1px black;
+    width: 50%;
+    padding: 50px 12px 72px;
+  }
+
+  .ScreenContent {
+    background: #FCFCFC;
+    border-radius: 22px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 90px 0px;
+
+
+    .text {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .accent {
+        color: #0381FE;
+      }
+
+      .title {
+        font-family: Samsung Sharp Sans;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      .description {
+        font-family: Samsung Sharp Sans;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+
+
+    .button {
+      width: 196px;
+      height: 42px;
+
+      background: #FFFFFF;
+      border: 2px solid #D6D6D6;
+      border-radius: 21px;
+
+      font-family: Samsung Sharp Sans;
+      font-size: 12px;
+      font-weight: 666;
+      line-height: 18px;
+
+    }
+  }
+}
